@@ -1,0 +1,16 @@
+[
+    {
+      "idea_rank": 1,
+      "idea_name": "Sentiment-Based Stock Movement Predictor",
+      "idea_summary": "A platform that aggregates and analyzes social sentiment from Reddit, Twitter, and financial news APIs to predict potential stock price movements.",
+      "information_story": "In today’s fast-paced markets, online communities often influence investor behavior before traditional indicators react. This project leverages sentiment analysis on real-time textual data from Reddit (e.g., r/wallstreetbets), Twitter, and financial news APIs to forecast stock movement patterns. By quantifying and correlating public sentiment with historical stock performance, the platform can surface actionable insights for retail traders and analysts. The final tool empowers users to explore sentiment-driven predictions and make informed trading decisions.",
+      "possible_information_structure": "{ 'timestamp': string, 'source': string, 'author': string, 'content': string, 'sentiment_score': float, 'related_stock_ticker': string, 'predicted_movement': float, 'confidence_score': float }"
+    },
+    {
+      "idea_rank": 2,
+      "idea_name": "Real-Time Stock Trend Analyzer with Visualization",
+      "idea_summary": "A real-time dashboard that visualizes stock market trends, anomalies, and volatility patterns to help traders and analysts make timely decisions.",
+      "information_story": "Market data is abundant, but interpreting it in real time is a challenge. This project aims to build a responsive dashboard that fetches and visualizes live stock market data, highlighting key metrics like volume, volatility, and sudden price changes. Through intuitive charts and anomaly detection, users can spot trends and outliers instantly. The solution is designed for traders, financial analysts, and researchers who rely on fast and clear data representation to make critical market decisions.",
+      "possible_information_structure": "{ 'timestamp': string, 'stock_ticker': string, 'current_price': float, 'volume': int, 'volatility': float, 'price_change_percent': float, 'anomaly_detected': boolean }"
+    }
+  ]
