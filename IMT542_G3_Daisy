@@ -1,0 +1,16 @@
+[
+    {
+      "idea_rank": 3,
+      "idea_name": "Earnings Report Impact Dashboard",
+      "idea_summary": "Analyze how company earnings reports and language sentiment influence stock price movements.",
+      "information_story": "Insight into how earnings reports historically impacted stock prices, identifying key financial indicators and language sentiment."
+      "possible_information_structure": "Structured data from SEC EDGAR filings and transcripts; time-series stock prices; natural language sentiment analysis of earnings calls."
+    },
+    {
+      "idea_rank": 4,
+      "idea_name": "Portfolio Diversification & Risk Analyzer",
+      "idea_summary": "Evaluate a user's stock portfolio for diversification and risk, and provide personalized recommendations.",
+      "information_story": "Analyze user portfolios for diversification, risk exposure, and suggest optimal asset allocation strategies.",
+      "possible_information_structure": "{ Structured financial data from brokerage accounts, ETF databases, market sector performance APIs; statistical risk metrics and asset classification. }"
+    }
+  ]
