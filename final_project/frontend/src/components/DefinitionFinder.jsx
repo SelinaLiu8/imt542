@@ -9,14 +9,14 @@ function DefinitionFinder() {
     setLoading(true);
     try {
       // Step 1: PUT the input text
-      await fetch('http://localhost:5050/input', {
+      await fetch('https://financedefinitionextractor-b9cjgycwckb2bjaw.westus-01.azurewebsites.net/input', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text }),
       });
 
       // Step 2: GET the definitions
-      const res = await fetch('http://localhost:5050/definitions');
+      const res = await fetch('https://financedefinitionextractor-b9cjgycwckb2bjaw.westus-01.azurewebsites.net/definitions');
       const data = await res.json();
       setDefinitions(data);
     } catch (err) {
