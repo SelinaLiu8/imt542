@@ -2,6 +2,7 @@
 frontend/node_modules/
 frontend/build/
 frontend/.env
+frontend/package-lock.json
 
 # Python (backend)
 backend/venv/

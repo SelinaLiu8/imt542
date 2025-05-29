@@ -5,7 +5,7 @@ from scraper import extract_defined_terms_from_paragraph
 
 app = Flask(__name__)
 
-CORS(app, origins=["http://localhost:3000"])
+CORS(app, origins=["https://selinaliu8.github.io"])
 
 INPUT_FILE = "input.txt"
 
