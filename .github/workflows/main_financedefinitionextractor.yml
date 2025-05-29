@@ -63,7 +63,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: python-app
-          path: final_project/backend
 
       - name: Unzip artifact for deployment
         run: unzip release.zip
@@ -81,6 +80,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'FinanceDefinitionExtractor'
-          package: final_project/backend
           slot-name: 'Production'
           
