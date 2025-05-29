@@ -25,11 +25,13 @@ jobs:
           python-version: '3.12'
 
       - name: Create and start virtual environment
+        working-directory: final_project/backend
         run: |
           python -m venv venv
           source venv/bin/activate
       
       - name: Install dependencies
+        working-directory: final_project/backend
         run: pip install -r requirements.txt
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
@@ -42,6 +44,7 @@ jobs:
         with:
           name: python-app
           path: |
+            final_project/backend
             release.zip
             !venv/
 
@@ -60,6 +63,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: python-app
+          path: final_project/backend
 
       - name: Unzip artifact for deployment
         run: unzip release.zip
@@ -77,5 +81,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'FinanceDefinitionExtractor'
+          package: final_project/backend
           slot-name: 'Production'
           
