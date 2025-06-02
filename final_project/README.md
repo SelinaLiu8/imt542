@@ -21,7 +21,7 @@ This system is a web-based tool designed to extract financial term definitions f
 ---
 
 ## 🔑 Access
-
+- **Website**: `https://selinaliu8.github.io/imt542/`
 - **Frontend**: Start the React application (e.g., `npm start`) which runs at `http://localhost:3000`.
 - **Backend**: Start the Flask API (e.g., `python app.py`) which runs at `http://localhost:5050`.
 - **Input**:
