@@ -1,4 +1,4 @@
-#🧪 **Performance and Quality of the New Portable Information**
+# 🧪 **Performance and Quality of the New Portable Information**
 
 ## Criterion 1: Term Accuracy & Definition Clarity
 
