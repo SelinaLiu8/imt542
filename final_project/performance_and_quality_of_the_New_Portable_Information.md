@@ -1,6 +1,6 @@
-🧪 **Performance and Quality of the New Portable Information**
+#🧪 **Performance and Quality of the New Portable Information**
 
-### Criterion 1: Term Accuracy & Definition Clarity
+## Criterion 1: Term Accuracy & Definition Clarity
 
 - **Extraction Logic**:
   - Financial terms are extracted using NLP techniques (tokenization + n-grams)
@@ -17,7 +17,7 @@
 
 ---
 
-### Criterion 2: Performance and System Responsiveness
+## Criterion 2: Performance and System Responsiveness
 
 - **Initial Query Time**:
   - Most single-term queries return within **1–2 seconds**
@@ -33,7 +33,7 @@
 
 ---
 
-### Criterion 3: Resilience and Stability
+## Criterion 3: Resilience and Stability
 
 - **Scraping Strategy**:
   - Uses tag-based scraping with stable `id` and `class` selectors
